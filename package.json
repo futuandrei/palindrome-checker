@@ -1,12 +1,14 @@
 {
   "devDependencies": {
     "chai": "^5.1.2",
+    "gh-pages": "^6.3.0",
     "jsdom": "^26.0.0",
     "mocha": "^11.1.0"
   },
   "scripts": {
     "test": "jest",
     "build": "tsc",
+    "deploy": "npm run build && gh-pages -d dist",
     "watch": "tsc --watch"
   }
 }
