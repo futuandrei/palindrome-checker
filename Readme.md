@@ -7,3 +7,5 @@ This app was done with Vanilla JavaScript and refactored to Typescript.
 ## Mocha test is used for testing.
 
 To test run: `npx mocha test`
+
+---
