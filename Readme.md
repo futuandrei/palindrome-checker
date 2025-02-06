@@ -8,4 +8,4 @@ This app was done with Vanilla JavaScript and refactored to Typescript.
 
 To test run: `npx mocha test`
 
----
+---\*\*\*
