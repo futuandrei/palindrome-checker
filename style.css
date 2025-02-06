@@ -1,0 +1,55 @@
+body {
+    background-color: #1f1e53;
+    color: lightblue;
+}
+
+.vert-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Vertically align the elements */
+    gap: 10px; /* Add space between the input and button */
+}
+
+.horz-container {
+    display: flex;
+    gap: 10px; /* Add space between the input and button */
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+#input {
+    background-color: #131233;
+    color: lightblue;
+    font-size: 2em;
+    border-style: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 20px 0 20px;
+    flex-grow: 1;
+}
+
+#input:focus {
+    outline: none;
+}
+
+#button {
+    background-color: #302edb;
+    border-style: none;
+    height: 40px;
+    padding: 0 20px 0 20px;
+    border-radius: 5px;
+}
+
+#button:hover {
+    background-color: #3f3cf7;
+    /* color: lightblue; */
+    cursor: pointer;    
+}
+
+#output{
+    color: lightblue;
+    font-size: 5em;
+    margin-top: 0;
+}
